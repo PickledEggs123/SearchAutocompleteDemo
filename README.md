@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Working Demo
+Open [https://tyler-truong-search-demo.firebaseapp.com](https://tyler-truong-search-demo.firebaseapp.com) to view the demo.
+
 ## Available Scripts
 
 In the project directory, you can run:
