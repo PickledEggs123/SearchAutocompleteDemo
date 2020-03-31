@@ -5,9 +5,11 @@ import AddressSearchBar from "./components/AddressSearchBar/AddressSearchBar";
 function App() {
     return (
         <div className="App">
-            <AddressSearchBar/>
-            <AddressSearchBar/>
-            <AddressSearchBar/>
+            {
+                [1, 2, 3].map((i) => {
+                    return <AddressSearchBar key={i}/>;
+                })
+            }
         </div>
     );
 }
